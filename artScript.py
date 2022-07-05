@@ -34,4 +34,4 @@ for i in range(0, len(result), 2):
         elif x[0] in ['and', 'or']: ifout += x[0] + ' '
         elif x[0] == 'to': tolist.append(x[1])
     print(ifout.strip() + ':')
-    print('    ' + output + '(random.choice(' + str(tolist) + '))')
+    print('    ' + output + '(random.choice(' + str(tolist) + '))\n')
